@@ -5,8 +5,8 @@ import {useSelector} from "react-redux";
 // законнектить данные из store в контейнерную и передать в пропсы презентационной
 
 const PageContainer4 = () => {
-    let textOut = useSelector(state => state.page4.textOut);
-    let textIn = useSelector(state => state.page4.textIn);
+    const textOut = useSelector(state => state.page4.textOut);
+    const textIn = useSelector(state => state.page4.textIn);
 
     return (
         <PagePresentation4 textOut={textOut} textIn={textIn}/>

@@ -6,6 +6,7 @@ import Profile from "../pages/profileIgnatZakalinsky/UI/profile";
 import Page2 from "../steps/s2/pages/pageFirst_nameLast_name/UI/page2";
 import Page3 from "../steps/s3/pages/pageFirst_nameLast_name/UI/page3";
 import Page4 from "../steps/s4/pages/pageFirst_nameLast_name/UI/page4";
+import Page5 from "../steps/s5/pages/pageFirst_nameLast_name/UI/page5";
 
 const Main = () => {
     return (
@@ -17,6 +18,7 @@ const Main = () => {
             <Route path='/page2' render={() => <Page2/>}/>
             <Route path='/page3' render={() => <Page3/>}/>
             <Route path='/page4' render={() => <Page4/>}/>
+            <Route path='/page5' render={() => <Page5/>}/>
         </div>
     );
 };

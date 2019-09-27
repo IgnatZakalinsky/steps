@@ -4,6 +4,7 @@ import pageReducer2 from "../steps/s2/pages/pageFirst_nameLast_name/BLL/pageRedu
 import profileReducer from "../pages/profileIgnatZakalinsky/BLL/profileReducer";
 import pageReducer3 from "../steps/s3/pages/pageFirst_nameLast_name/BLL/pageReducer3";
 import pageReducer4 from "../steps/s4/pages/pageFirst_nameLast_name/BLL/pageReducer4";
+import pageReducer5 from "../steps/s5/pages/pageFirst_nameLast_name/BLL/pageReducer5";
 
 
 let reducers = combineReducers({
@@ -11,6 +12,7 @@ let reducers = combineReducers({
     page2: pageReducer2,
     page3: pageReducer3,
     page4: pageReducer4,
+    page5: pageReducer5,
 });
 
 let store = createStore(reducers,applyMiddleware(thunkMiddleware));

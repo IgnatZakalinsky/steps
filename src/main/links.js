@@ -9,6 +9,7 @@ const Links = () => {
             <div><NavLink to={'/page2'}>Page2</NavLink></div>
             <div><NavLink to={'/page3'}>Page3</NavLink></div>
             <div><NavLink to={'/page4'}>Page4</NavLink></div>
+            <div><NavLink to={'/page5'}>Page5</NavLink></div>
         </div>
     );
 };
