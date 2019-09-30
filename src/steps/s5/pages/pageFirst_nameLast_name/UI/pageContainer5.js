@@ -14,8 +14,8 @@ const PageContainer5 = () => {
         dispatch(setTextIn(e.currentTarget.value));
     };
 
-    const textOut = useSelector(state => state.page4.textOut);
-    const textIn = useSelector(state => state.page4.textIn);
+    const textOut = useSelector(state => state.page5.textOut);
+    const textIn = useSelector(state => state.page5.textIn);
 
     return (
         <PagePresentation5 textOut={textOut} textIn={textIn} setTextOutCallback={setTextOutCallback}
